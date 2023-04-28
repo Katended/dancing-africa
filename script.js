@@ -1,4 +1,3 @@
-/* eslint-disable no-plusplus */
 const navlistmobile = document.querySelector('.nav-list-mobile');
 const wrap = document.querySelector('#wrap');
 const menubarfluid = document.querySelector('.menu-bar-fluid');
@@ -26,37 +25,37 @@ for (let i = 0; i < menuArray.length; i++) {
 
 const lecturesData = [
   {
-    lecturerName: 'Team X',
-    lecturerCertification: 'Ghana',
+    lecturerName: 'Xtre',
+    lecturerCertification: 'Nigeria',
     lecturerInfo: 'Benkler has Contributed in Many Open-Source Softwares and is a well known Europe Professor',
-    lecturerImage: './images/team4.svg',
+    lecturerImage: './images/team1.svg',
   },
   {
-    lecturerName: 'Amapiano',
-    lecturerCertification: 'South  Africa',
+    lecturerName: 'Moma',
+    lecturerCertification: 'Zambia',
     lecturerInfo: 'Kilnam has Contributed in Many Open-Source Softwares and is a well known Harverd Professor',
-    lecturerImage: './images/team6.svg',
+    lecturerImage: './images/team2.svg',
   },
   {
-    lecturerName: 'Ndege',
-    lecturerCertification: 'Uganda',
+    lecturerName: 'Noh',
+    lecturerCertification: 'Moroco',
     lecturerInfo: 'SoYeong has Contributed in Many Open-Source Softwares and is a well known Harverd Professor',
-    lecturerImage: './images/team6.svg',
+    lecturerImage: './images/team2.svg',
   },
   {
-    lecturerName: 'Rush',
-    lecturerCertification: 'Kenya',
+    lecturerName: 'Leda',
+    lecturerCertification: 'Uganda',
     lecturerInfo: 'Julia has Contributed in Many Open-Source Softwares and is a well known Harverd Professor',
     lecturerImage: './images/team4.svg',
   },
   {
-    lecturerName: 'Ndugu',
-    lecturerCertification: 'Nigeria',
+    lecturerName: 'Ndege',
+    lecturerCertification: 'South Africa',
     lecturerInfo: 'Lila has Contributed in Many Open-Source Softwares and is a well known Harverd Professor',
     lecturerImage: './images/team5.svg',
   },
   {
-    lecturerName: 'Ubuntu',
+    lecturerName: 'Pop3',
     lecturerCertification: 'Kenya',
     lecturerInfo: 'Ryan has Contributed in Many Open-Source Softwares and is a well known Harverd Professor',
     lecturerImage: './images/team6.svg',
@@ -66,12 +65,12 @@ const lecturesData = [
 lecturesData.forEach(() => {
   featuresection.innerHTML = `
     <div class="container feature-program-container ">
-      <div class="row">
-          <div class="col-12 d-flex justify-content-center feature-main-text">Featured Teams</div>
-      </div>
-      <div class="row d-flex justify-content-center">
-          <div class="col-1 feature-main-text-line">line</div>
-      </div>
+    <div class="row">
+        <div class="col-12 d-flex justify-content-center feature-main-text">Featured Speakers</div>
+    </div>
+    <div class="row d-flex justify-content-center">
+        <div class="col-1 feature-main-text-line">line</div>
+    </div>
     </div>
 
 <div class="container feature-boxes">

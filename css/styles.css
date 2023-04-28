@@ -5,13 +5,8 @@
 }
 
 @font-face {
-  font-family: coco;
+  font-family: coco1;
   src: url(/coco1.ttf);
-}
-
-body {
-  background-color: black;
-  margin: 0;
 }
 
 html {
@@ -30,11 +25,25 @@ html {
   --color-light-grey: #ebf0ee;
 }
 
+.box-border {
+  border:1px solid #d3d3d3;
+}
 @media only screen and (min-width: 2px) {
   html {
     font-size: 5.5%;
   }
-
+  
+  .fri-logo {
+    display: flex;
+    width:100px;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .main-program-container {
+    position: absolute;
+    top:450em;
+  }
   .header-container {
     display: none;
   }
@@ -75,7 +84,6 @@ html {
     background: #877772;
     display: block;
     transition: 0.5s ease-in-out;
-    background-image: url(../images/orangeimg1.jpg);
   }
 
   #bar1 {
@@ -142,19 +150,9 @@ html {
   /* Home page section start from here */
 
   .home-page-fluid-container {
-    position: relative;
-    height: 100vh;
-  }
-
-  .home-page-fluid-container::before {
-    content: "";
-    background: url(../images/culturedancing.jpg);
+    background: url(../images/background2.jpg);
+    height: 61vh;
     background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.5;
-    position: absolute;
-    inset: 0;
-    z-index: -1;
   }
 
   .main-home-container {
@@ -177,16 +175,12 @@ html {
   .heading-2 {
     position: relative;
     margin: 2rem 8rem;
-    width: 50vw;
-    font-weight: bolder;
-    border-radius: 14px 45px;
-    padding: 5px 19px 14px;
-    background: rgba(233, 232, 230, 0.5);
+    width: 280rem;
   }
 
   .heading-2 h2 {
-    letter-spacing: 0.7rem;
-    font-size: 25em;
+    letter-spacing: 2rem;
+    font-size: 25rem;
     font-family: var(--primary-font-family);
     font-weight: bolder;
     -webkit-background-clip: text;
@@ -196,31 +190,17 @@ html {
 
   .para-heading {
     position: relative;
-    margin: 1rem;
-    width: 70%;
-    font-family: var(--primary-font-family);
-    top: -50vh;
-    right: -8vw;
-    border-radius: 14px 45px;
-    padding: 5px 19px 14px;
-    background: rgba(233, 232, 230, 0.5);
+    top: 9rem;
+    margin: 2rem 8rem;
+    width: 280rem;
+    background-color: var(--color-white);
   }
 
   .para-heading p {
-    font-size: 15em;
+    font-size: 12rem;
     padding: 4rem;
-    color: #220f01;
-    display: inline-block;
-  }
-
-  .para-heading h1 {
-    font-size: 20em;
-    color: #220f01;
-    display: inline-block;
-    font-weight: bold;
-    border-radius: 10px 50px 30px;
-    padding: 5px 19px 14px;
-    background: rgba(233, 232, 100, 0.5);
+    margin: 3rem;
+    color: var(--color-background);
   }
 
   .heading-3 {
@@ -256,10 +236,8 @@ html {
   /* Main course section start from here */
 
   .main-program {
-    height: 100%;
-    top: -220em;
-    width: 100%;
-    position: relative;
+    height: 100vh;
+    
   }
 
   .main-program::before {
@@ -272,6 +250,7 @@ html {
     opacity: 1;
     height: 100vh;
     z-index: -1;
+    top:410em;
   }
 
   .main-text {
@@ -287,11 +266,11 @@ html {
 
   .boxes-container {
     position: relative;
-    top: 40rem;
+    top: 100rem;
   }
 
   .main-program-box {
-    height: 100rem;
+    height: auto;
     width: 90vw;
     margin: 7rem auto;
     background: #ffffff1a;
@@ -301,8 +280,8 @@ html {
     width: 70rem;
     height: 70rem;
     display: flex;
-    margin: auto;
-    z-index: -1;
+    margin: auto;  
+    
   }
 
   .h2class {
@@ -325,7 +304,7 @@ html {
     background-color: var(--color-secondary);
     color: white;
     font-size: 11rem;
-    margin: 26rem auto;
+    margin: 19rem auto;
     cursor: pointer;
   }
 
@@ -335,12 +314,13 @@ html {
 
   .seeprogramclass {
     display: none;
+    left:-100em;
   }
 
   /* Feature section css start from here */
   .feature-program-container {
     position: relative;
-    top: -170em;
+    top: 100rem;
   }
 
   .feature-main-text {
@@ -358,7 +338,7 @@ html {
     display: flex;
     flex-direction: column;
     position: relative;
-    top: -80em;
+    top: 130rem;
   }
 
   .boxes-group {
@@ -465,8 +445,9 @@ html {
 
   .partner-section {
     position: relative;
-    top: -60em;
-    height: 100%;
+    top: 130rem;
+    height: 45vh;
+    background-color: var(--color-background);
   }
 
   .partner-main-text {
@@ -510,33 +491,45 @@ html {
 
   .footer-section {
     position: relative;
-    top: 180rem;
+    top: 150rem;
   }
 
+  .footer-section2 {
+    position: relative;
+    top: 150rem;
+    background-color: #585858;
+    color: #d3d3d3;
+  }
+
+  .footer-section2 p {    
+    color: #d3d3d3;
+    text-align: center;
+  }
   .footer-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 20rem;
-    flex-direction: row;
-    padding: 10px;
-    margin-bottom: 1em;
+    justify-content: space-evenly;   
+    height: 55rem;
+    font-size: 12px;
+    
   }
 
   .footer-img {
     width: 40px;
+    position: relative;
   }
 
   .footer-para {
     display: flex;
-    font-size: 15rem;
+    font-size: 20rem;
     justify-content: center;
-    text-align: center;
+    text-align: left;
     align-items: center;
-    position: relative;
+    position: relative;  
     font-family: var(--primary-font-family);
     color: var(--color-background);
     padding: 4rem;
+    font-size: 14px;
+    
   }
 
   .seeprogramclass h2 {
@@ -570,12 +563,13 @@ html {
     font-family: var(--primary-font-family);
     font-weight: 400;
     color: var(--color-secondary);
+    margin-bottom:1em;
   }
 
   .about-heading-2 {
     position: relative;
-    width: 100%;
     text-align: center;
+
   }
 
   .about-heading-2 h2 {
@@ -593,55 +587,35 @@ html {
 
   .about-para-heading {
     position: relative;
-    margin: 1rem;
-    width: 100%;
-    font-family: var(--primary-font-family);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    top: 26rem;
+    margin: auto;
+    width: 90%;
+    background-color: var(--color-white);
   }
 
   .about-para-heading p {
-    font-size: 15em;
+    font-size: 20rem;
+    text-align: center;
     padding: 4rem;
-    color: grey;
-    display: inline-block;
-    text-align: center;
-    margin-top: 3em;
-  }
-
-  .about-para-heading h3 {
-    font-size: 18rem;
-    margin-top: 1em;
-    text-align: center;
-    padding: 2rem;
-    font-family: var(--primary-font-family);
-    font-weight: bolder;
+    margin: 3rem;
     color: var(--color-background);
   }
 
-  .about-para-heading img {
-    font-size: 18rem;
-    text-align: center;
-    margin-top: 5em;
-    padding: 4rem;
-    font-family: var(--primary-font-family);
-    font-weight: bolder;
-    color: var(--color-background);
-    width: 150px;
+  .about-heading-3 {
     position: relative;
-    display: inline-block;
+    top: 60rem;
+    margin: auto;
+    width: 65%;
+    background-color: var(--color-white);
   }
 
-  .about-para-heading h1 {
-    font-size: 30rem;
-    margin-top: 1em;
+  .about-heading-3 h3 {
+    font-size: 15rem;
     text-align: center;
     padding: 2rem;
     font-family: var(--primary-font-family);
     font-weight: bolder;
-    color: var(--color-light-grey);
+    color: var(--color-background);
   }
 
   .about-heading-4 {
@@ -767,7 +741,7 @@ html {
   .pastimage1::before {
     content: '';
     position: absolute;
-    background: url(../images/past1.png);
+    background: url(../images/pastpicimage1.jpg);
     background-size: cover;
     width: 100%;
     height: 200px;
@@ -806,7 +780,7 @@ html {
   .pastimage2::before {
     content: '';
     position: absolute;
-    background: url(../images/past2.png);
+    background: url(../images/pastpicimage2.jpg);
     background-size: cover;
     width: 100%;
     height: 200px;
@@ -831,119 +805,24 @@ html {
   }
 }
 
-/* @media only screen and (min-width: 320px) {
-  .home-page-fluid-container {
-    height:100vh;
-  }
-  .heading-2 {
-    position: relative;
-    margin: 2rem 8rem;
-    width: 40vw;
-    font-weight: bold;
-    left:5vw;
-  }
-
-  .main-program {
-    height: 119vh;
-  }
-
-  .main-program::before {
-    height: 119vh;
-  }
-} */
-
-@media only screen and (min-width: 390px) {
-  .home-page-fluid-container {
-    height: 100vh;
-  }
-
-  .feature-program-container {
-    position: relative;
-    top: -30em;
-  }
-
-  .feature-boxes {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    top: 20em;
-  }
-
-  .about-page-fluid-container {
-    height: 74vh;
-  }
-
-  .logo-section {
-    height: 45vh;
-  }
-
-  .past-section {
-    height: 80vh;
-  }
-
-  .main-program {
-    height: 80vh;
-    width: 100%;
-  }
-
-  .main-program::before {
-    height: 80vh;
-  }
-
-  .partner-section {
-    height: 35vh;
-  }
-}
-
-/*
-@media only screen and (min-width: 540px) {
-  .home-page-fluid-container {
-    height: 100vh;
-  }
-  .heading-2 {
-    position: relative;
-    margin: 2rem 8rem;
-    width: 40vw;
-    font-weight: bold;
-    left:4vw;
-  }
-  .about-page-fluid-container {
-    height: 77vh;
-  }
-
-  .main-program {
-    height: 92vh;
-  }
-
-  .main-program::before {
-    height: 92vh;
-  }
-} */
-
 @media only screen and (min-width: 768px) {
   html {
     font-size: 5.6%;
   }
-
-  .heading-2 {
-    width: 30vw;
+ .main-home-container {
+    position: absolute; 
+  }
+  .main-program-container {
+    position: absolute;
+    top:410em;
   }
 
-  .partner-section {
-    top: 30em;
+.boxes-container {
+    position: relative;
+    top: 150rem;
   }
-
-  .para-heading {
-    width: 50vw;
-    top: -60vh;
-  }
-
-  .para-heading h1 {
-    width: 16em;
-  }
-
   .home-page-fluid-container {
-    height: 100vh;
+    height: 35vh;
   }
 
   .about-page-fluid-container {
@@ -1018,7 +897,6 @@ html {
 
   .nav-logo {
     width: 40rem;
-    padding: 2px;
   }
 
   .nav-bar-container {
@@ -1057,8 +935,8 @@ html {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
-    width: 150rem;
+    padding: 3rem;
+    width: 170rem;
     color: var(--color-secondary);
     font-size: 20rem;
     cursor: pointer;
@@ -1086,7 +964,7 @@ html {
 
   .main-program-box {
     width: 18%;
-    height: 200rem;
+    height: 100rem;
     margin: auto 2rem;
     display: flex;
     flex-direction: column;
@@ -1141,6 +1019,10 @@ html {
     display: flex;
   }
 
+  .partner-section {
+    height: 22vh;
+  }
+
   .past-pic {
     flex-direction: row;
   }
@@ -1161,21 +1043,14 @@ html {
 @media only screen and (min-width: 912px) {
   .main-program {
     height: 28vh;
-    width: 100%;
   }
-
-  .heading-2 {
-    position: absolute;
-    top: 5%;
-    left: 1%;
-  }
-
+ 
   .main-program::before {
     height: 28vh;
   }
 
   .home-page-fluid-container {
-    height: 100vh;
+    height: 29vh;
   }
 
   .about-page-fluid-container {
@@ -1196,11 +1071,51 @@ html {
 }
 
 @media only screen and (min-width: 1024px) {
-  .home-page-fluid-container::before {
-    background-size: contain;
-    background-position: 50% 50%;
+  html {
+    font-size: 7%;
   }
 
+  .heading-2 h2 {
+  
+    width:680em;
+  
+ 
+  }
+  .heading-2 h2 {
+  
+    font-size: 35rem;
+  
+ 
+  }
+
+  .para-heading {
+    
+    width: 480rem;
+   
+  }
+  .main-program-container {
+    position: absolute;
+    top:500em;
+  }
+
+  .boxes-container {
+    position: relative;
+    top: 100rem;
+  }
+  .feature-program-container {
+    position: relative;
+    top: -50rem;
+  }
+
+  .feature-boxes {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 50rem;
+  }
+  .main-program-box {
+    height: auto;
+  }
   .logo-section {
     height: 69vh;
   }
@@ -1211,15 +1126,6 @@ html {
 
   .main-program {
     height: 77vh;
-    width: 100%;
-  }
-
-  .feature-program-container {
-    top: -150em;
-  }
-
-  .feature-boxes {
-    top: -100em;
   }
 
   .main-program::before {
@@ -1227,7 +1133,7 @@ html {
   }
 
   .home-page-fluid-container {
-    height: 100vh;
+    height: 77vh;
   }
 
   .about-page-fluid-container {
@@ -1248,35 +1154,47 @@ html {
 }
 
 @media only screen and (min-width: 1280px) {
-  .home-page-fluid-container::before {
-    background-size: contain;
-    background-position: 50% 50%;
+  html {
+    font-size: 8%;
   }
-
-  .heading-2 {
-    width: 30vw;
+  .heading-2 {  
+    width:780em;  
+ 
   }
-
+  .heading-2 h2 {  
+    font-size: 40rem;  
+ 
+  }
   .para-heading {
-    width: 50vw;
-    top: -70vh;
+    
+    width: 580rem;
+   
+  }
+  .main-program-box {
+    height: auto;
+  }
+  .main-program-container {
+    position: absolute;
+    top:480em;
   }
 
+  .boxes-container {
+    position: relative;
+    top: 60rem;
+  }
   .feature-program-container {
-    top: -150em;
+    position: relative;
+    top: -50rem;
   }
 
   .feature-boxes {
-    top: -100em;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 50rem;
   }
-
-  .para-heading h1 {
-    width: 16em;
-  }
-
   .main-program {
     height: 70vh;
-    width: 100%;
   }
 
   .main-program::before {
@@ -1290,5 +1208,8 @@ html {
 
   .seeprogramclass {
     right: 134rem;
+  
   }
+
+  
 }

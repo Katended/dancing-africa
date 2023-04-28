@@ -92,23 +92,12 @@ Open index.html using a live server.
 - LinkedIn: [LinkedIn](linkedin.com/in/katende-david-01627461)
 
 
-👤 Alex Waweru
-
-- GitHub: [@githubhandle](https://github.com/AleWaweru)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alex-waweru-2b2701180/)
-
-👤 Sami ullah
-
-- GitHub: [@githubhandle](https://github.com/samiullah123)
-
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Deployment <a name="live-demo"></a>
 
 You can deploy this project using:
-https://katended.github.io/mobilefirstproject2/Index.html
+ https://katended.github.io/dancing-africa/Index.html
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -120,7 +109,7 @@ https://katended.github.io/mobilefirstproject2/Index.html
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Katended/portfolio/issues).
+Feel free to check the [issues page]( https://katended.github.io/dancing-africa/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,14 +122,17 @@ If you like this project just give me a star ⭐️!
 
 - **How soon are new features coming out?**
 
-  - We currently do not have scheduled release timw
+  - We currently do not have scheduled release time
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## ⭐️ Acknowledgements <a name="acknowledgements"></a>
+
+Shouts out to [Cindy Shin](https://www.behance.net/adagio07) a proffesional graphic designer for the original design
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://opensource.org/license/mit/) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
