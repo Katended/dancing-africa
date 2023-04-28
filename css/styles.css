@@ -819,6 +819,10 @@ html {
     font-size: 5.6%;
   }
 
+  .footer-section {
+    display: block;
+  }
+
   .main-program-container {
     position: absolute;
     top: 400em;
@@ -1029,6 +1033,7 @@ html {
 
   .partner-section {
     height: 22vh;
+    display: block;
   }
 
   .past-pic {

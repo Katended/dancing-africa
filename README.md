@@ -52,6 +52,9 @@ This project is builf for the promotion of different dance cultures in Africa.
 - Added Index.html
 - Added style.css
 
+## Live Demo <a name="live-demo"></a>
+
+Please click [here](https://www.loom.com/share/cec38e8bc49c4349807737d505fdfb99) to view the demo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
