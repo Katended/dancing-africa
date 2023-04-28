@@ -64,7 +64,7 @@ const lecturesData = [
 
 lecturesData.forEach(() => {
   featuresection.innerHTML = `
-    <div class="container feature-program-container ">
+    <div class="container feature-program-container">
     <div class="row">
         <div class="col-12 d-flex justify-content-center feature-main-text">Featured Speakers</div>
     </div>

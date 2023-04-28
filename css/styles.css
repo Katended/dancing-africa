@@ -43,7 +43,7 @@ html {
 
   .main-program-container {
     position: absolute;
-    top: 450em;
+    top: 420em;
   }
 
   .header-container {
@@ -159,7 +159,10 @@ html {
 
   .main-home-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;  
+    position: relative;
+    top:-20em;
+    width:100%;
   }
 
   .heading-1 {
@@ -177,7 +180,7 @@ html {
   .heading-2 {
     position: relative;
     margin: 2rem 8rem;
-    width: 280rem;
+    width: 480rem;
   }
 
   .heading-2 h2 {
@@ -194,7 +197,7 @@ html {
     position: relative;
     top: 9rem;
     margin: 2rem 8rem;
-    width: 280rem;
+    width: 475rem;
     background-color: var(--color-white);
   }
 
@@ -267,12 +270,12 @@ html {
 
   .boxes-container {
     position: relative;
-    top: 100rem;
+    top: 120rem;
   }
 
   .main-program-box {
     height: auto;
-    width: 90vw;
+    width: 96vw;
     margin: 7rem auto;
     background: #ffffff1a;
   }
@@ -289,6 +292,7 @@ html {
     font-size: 16rem;
     text-align: center;
     position: relative;
+    padding-left:1em;
   }
 
   .pclass {
@@ -299,15 +303,20 @@ html {
     position: relative;
   }
 
-  .main-program-btn {
+  .main-program-btn { 
     padding: 9rem;
     background-color: var(--color-secondary);
     color: white;
-    font-size: 11rem;
-    margin: 19rem auto;
+    font-size: 14rem;
+    padding:1.5em;
     cursor: pointer;
+    width:20em;
+    margin-top:3em;
   }
-
+  .align-items-center{
+    display: flex;
+    justify-content: center;
+  }
   .main-program-btn:hover {
     border: 2px solid #f1eaea;
   }
@@ -320,7 +329,7 @@ html {
   /* Feature section css start from here */
   .feature-program-container {
     position: relative;
-    top: 130rem;
+    top: 50rem;
   }
 
   .feature-main-text {
@@ -338,7 +347,7 @@ html {
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 130rem;
+    top: 90rem;
   }
 
   .boxes-group {
@@ -445,9 +454,10 @@ html {
 
   .partner-section {
     position: relative;
-    top: 130rem;
+    top: 90rem;
     height: 45vh;
     background-color: var(--color-background);
+    display:none;
   }
 
   .partner-main-text {
@@ -492,6 +502,7 @@ html {
   .footer-section {
     position: relative;
     top: 150rem;
+    display:none;
   }
 
   .footer-section2 {
