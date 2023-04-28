@@ -15,7 +15,7 @@ const sponsericonmobile1 = document.querySelector('#sponsericonmobile');
 const latesticonmobile1 = document.querySelector('#latesticonmobile');
 
 const menuArray = [coursesiconmobile1, joiniconmobile1, sponsericonmobile1, latesticonmobile1];
-for (let i = 0; i < menuArray.length; i++) {
+for (let i = 0; i < menuArray.length; i += 1) {
   menuArray[i].addEventListener('click', () => {
     menubarfluid.classList.remove('menu-bar-fluid-background-change');
     navlistmobile.classList.remove('nav-list-mobile-change');

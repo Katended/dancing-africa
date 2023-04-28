@@ -26,24 +26,26 @@ html {
 }
 
 .box-border {
-  border:1px solid #d3d3d3;
+  border: 1px solid #d3d3d3;
 }
+
 @media only screen and (min-width: 2px) {
   html {
     font-size: 5.5%;
   }
-  
+
   .fri-logo {
     display: flex;
-    width:100px;
+    width: 100px;
     justify-content: center;
     align-items: center;
-   
   }
+
   .main-program-container {
     position: absolute;
-    top:450em;
+    top: 450em;
   }
+
   .header-container {
     display: none;
   }
@@ -237,7 +239,6 @@ html {
 
   .main-program {
     height: 100vh;
-    
   }
 
   .main-program::before {
@@ -250,7 +251,7 @@ html {
     opacity: 1;
     height: 100vh;
     z-index: -1;
-    top:410em;
+    top: 410em;
   }
 
   .main-text {
@@ -280,8 +281,7 @@ html {
     width: 70rem;
     height: 70rem;
     display: flex;
-    margin: auto;  
-    
+    margin: auto;
   }
 
   .h2class {
@@ -314,13 +314,13 @@ html {
 
   .seeprogramclass {
     display: none;
-    left:-100em;
+    left: -100em;
   }
 
   /* Feature section css start from here */
   .feature-program-container {
     position: relative;
-    top: 100rem;
+    top: 130rem;
   }
 
   .feature-main-text {
@@ -501,16 +501,16 @@ html {
     color: #d3d3d3;
   }
 
-  .footer-section2 p {    
+  .footer-section2 p {
     color: #d3d3d3;
     text-align: center;
   }
+
   .footer-container {
     display: flex;
-    justify-content: space-evenly;   
+    justify-content: space-evenly;
     height: 55rem;
     font-size: 12px;
-    
   }
 
   .footer-img {
@@ -520,16 +520,14 @@ html {
 
   .footer-para {
     display: flex;
-    font-size: 20rem;
     justify-content: center;
     text-align: left;
     align-items: center;
-    position: relative;  
+    position: relative;
     font-family: var(--primary-font-family);
     color: var(--color-background);
     padding: 4rem;
     font-size: 14px;
-    
   }
 
   .seeprogramclass h2 {
@@ -563,13 +561,12 @@ html {
     font-family: var(--primary-font-family);
     font-weight: 400;
     color: var(--color-secondary);
-    margin-bottom:1em;
+    margin-bottom: 1em;
   }
 
   .about-heading-2 {
     position: relative;
     text-align: center;
-
   }
 
   .about-heading-2 h2 {
@@ -809,18 +806,18 @@ html {
   html {
     font-size: 5.6%;
   }
- .main-home-container {
-    position: absolute; 
-  }
+
+
   .main-program-container {
     position: absolute;
-    top:410em;
+    top: 400em;
   }
 
-.boxes-container {
+  .boxes-container {
     position: relative;
     top: 150rem;
   }
+
   .home-page-fluid-container {
     height: 35vh;
   }
@@ -964,7 +961,7 @@ html {
 
   .main-program-box {
     width: 18%;
-    height: 100rem;
+    height: auto;
     margin: auto 2rem;
     display: flex;
     flex-direction: column;
@@ -1044,7 +1041,7 @@ html {
   .main-program {
     height: 28vh;
   }
- 
+
   .main-program::before {
     height: 28vh;
   }
@@ -1076,32 +1073,24 @@ html {
   }
 
   .heading-2 h2 {
-  
-    width:680em;
-  
- 
-  }
-  .heading-2 h2 {
-  
+    width: 680em;
     font-size: 35rem;
-  
- 
   }
 
   .para-heading {
-    
     width: 480rem;
-   
   }
+
   .main-program-container {
     position: absolute;
-    top:500em;
+    top: 500em;
   }
 
   .boxes-container {
     position: relative;
     top: 100rem;
   }
+
   .feature-program-container {
     position: relative;
     top: -50rem;
@@ -1113,9 +1102,11 @@ html {
     position: relative;
     top: 50rem;
   }
+
   .main-program-box {
     height: auto;
   }
+
   .logo-section {
     height: 69vh;
   }
@@ -1157,31 +1148,33 @@ html {
   html {
     font-size: 8%;
   }
-  .heading-2 {  
-    width:780em;  
- 
+
+  .heading-2 {
+    width: 780em;
   }
-  .heading-2 h2 {  
-    font-size: 40rem;  
- 
+
+  .heading-2 h2 {
+    font-size: 40rem;
   }
+
   .para-heading {
-    
     width: 580rem;
-   
   }
+
   .main-program-box {
     height: auto;
   }
+
   .main-program-container {
     position: absolute;
-    top:480em;
+    top: 480em;
   }
 
   .boxes-container {
     position: relative;
     top: 60rem;
   }
+
   .feature-program-container {
     position: relative;
     top: -50rem;
@@ -1193,6 +1186,7 @@ html {
     position: relative;
     top: 50rem;
   }
+
   .main-program {
     height: 70vh;
   }
@@ -1208,8 +1202,5 @@ html {
 
   .seeprogramclass {
     right: 134rem;
-  
   }
-
-  
 }
