@@ -461,6 +461,14 @@ html {
     display: none;
   }
 
+  .partner-section2 {
+    position: relative;
+    top: 90rem;
+    height: 45vh;
+    background-color: var(--color-background);
+    display: block;
+  }
+
   .partner-main-text {
     color: white;
     font-size: 30rem;
@@ -508,14 +516,14 @@ html {
 
   .footer-section2 {
     position: relative;
-    top: 150rem;
-    background-color: #585858;
-    color: #d3d3d3;
+    top: 100rem;
+    height: 40em;
   }
 
   .footer-section2 p {
-    color: #d3d3d3;
+    color: black;
     text-align: center;
+    height: 15em;
   }
 
   .footer-container {
@@ -523,6 +531,7 @@ html {
     justify-content: space-evenly;
     height: 55rem;
     font-size: 12px;
+    margin-bottom: 15em;
   }
 
   .footer-img {
@@ -820,7 +829,11 @@ html {
   }
 
   .footer-section {
-    display: block;
+    display: none;
+  }
+
+  .partner-section {
+    display: none;
   }
 
   .main-program-container {
@@ -1031,11 +1044,6 @@ html {
     display: flex;
   }
 
-  .partner-section {
-    height: 22vh;
-    display: block;
-  }
-
   .past-pic {
     flex-direction: row;
   }
@@ -1097,6 +1105,14 @@ html {
     width: 480rem;
   }
 
+  .footer-section {
+    display: block;
+  }
+
+  .partner-section {
+    display: block;
+  }
+
   .main-program-container {
     position: absolute;
     top: 500em;
@@ -1154,15 +1170,19 @@ html {
   .feature-box {
     width: 413px;
   }
-
-  .partner-section {
-    height: 37vh;
-  }
 }
 
 @media only screen and (min-width: 1280px) {
   html {
     font-size: 8%;
+  }
+
+  .footer-section {
+    display: block;
+  }
+
+  .partner-section {
+    display: block;
   }
 
   .heading-2 {
