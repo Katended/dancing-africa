@@ -508,7 +508,7 @@ html {
     width: 60px;
   }
 
-  .footer-container {
+  .footer-container1 {
     display: flex;
     margin: 0;
     justify-content: center;
@@ -532,8 +532,13 @@ html {
     height: 8vh;
   }
 
-  .footer-container p {
-    font-size: 1.3em;
+  .footer-container1 p {
+    font-size: 1em;
+    padding: 5px;
+  }
+
+  .footer-container2 p {
+    font-size: 1em;
     padding: 5px;
   }
 
@@ -704,7 +709,7 @@ html {
   }
 
   .past-section {
-    height: 100vh;
+    height: 39vh;
     width: 100%;
   }
 
@@ -844,10 +849,12 @@ html {
     position: relative;
     justify-content: center;
     align-items: center;
-    top: 300rem;
+    top: 90rem;
     height: 30vh;
     background-color: #d3d3d3;
   }
+
+
 
   .webly-logo {
     display: flex;
@@ -1140,14 +1147,24 @@ html {
     width: 480rem;
   }
 
+  .footer-section2 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 90rem;
+    height: 30vh;
+    background-color: #d3d3d3;
+  }
+
   .footer-section1 {
     display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
-    top: 60rem;
+    top: 10rem;
     height: 30vh;
-    background-color: #d3d3d3;
+    background-color: #272a32;
   }
 
   .footer-section1 p {
@@ -1186,7 +1203,7 @@ html {
   }
 
   .past-section {
-    height: 69vh;
+    height: 57.5vh;
   }
 
   .main-program {
@@ -1245,7 +1262,7 @@ html {
 
   .main-program-container {
     position: absolute;
-    top: 460em;
+    top: 480em;
   }
 
   .boxes-container {
